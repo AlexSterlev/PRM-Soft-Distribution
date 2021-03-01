@@ -8,7 +8,7 @@
   rpm -i nginx-1.14.1-1.el7_4.ngx.src.rpm
   ````
 
-  - Установка зависимостей:
+  - Установка зависимостей для nginx:
 
   ````
   yum-builddep /root/rpmbuild/SPECS/nginx.spec -y
